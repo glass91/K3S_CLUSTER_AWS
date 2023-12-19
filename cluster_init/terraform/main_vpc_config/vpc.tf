@@ -5,7 +5,7 @@ resource "aws_vpc" "k3s_vpc" {
 
   tags = {
     Name = "K3s_VPC"
-  }
+  } 
 }
 
 # Create an Internet Gateway
